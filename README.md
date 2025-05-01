@@ -1,6 +1,6 @@
 # 🎙️ AI Podcast Generator
 
-A full-stack application that uses **AI to generate podcast scripts** from any topic and then converts those scripts into audio using **ElevenLabs Text-to-Speech**. Built using **React (Vite)** for the frontend and **FastAPI** for the backend.
+A full-stack application that uses **AI to generate podcast scripts** from any topic and then converts those scripts into audio using **ElevenLabs Text-to-Speech**. Built using **React** for the frontend and **FastAPI** for the backend.
 
 ---
 
@@ -12,7 +12,7 @@ ai-podcast/
 │   ├── main.py             # API logic
 │   ├── requirements.txt    # Python dependencies
 │   └── env/                # Virtual environment (excluded from Git)
-├── frontend/               # React (Vite) frontend
+├── frontend/               # React frontend
 │   ├── index.html
 │   └── src/
 │       ├── App.js
@@ -27,7 +27,7 @@ ai-podcast/
 
 - 🧠 Generate AI-based podcast scripts from any topic using Hugging Face models
 - 🔊 Convert scripts into realistic speech using ElevenLabs TTS API
-- ⚡ Fast, responsive React interface powered by Vite
+- ⚡ Fast, responsive React interface
 - 🌐 RESTful API with FastAPI backend
 - 🎧 Streamlined process from input to audio playback
 
@@ -36,9 +36,9 @@ ai-podcast/
 ## 🛠️ Tech Stack
 
 **Frontend**:  
-- React (Vite)  
+- React
 - JavaScript  
-- Tailwind CSS *(optional)*  
+- CSS Modules
 
 **Backend**:  
 - FastAPI  
@@ -56,8 +56,8 @@ ai-podcast/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/ai-podcast.git
-cd ai-podcast
+git clone https://github.com/rpuddatwar/ai_podcast
+cd ai_podcast
 ```
 
 ### 2. Backend Setup (FastAPI)
@@ -79,10 +79,10 @@ ELEVENLABS_API_KEY=your_elevenlabs_key
 Start the backend server:
 
 ```bash
-uvicorn main:app --reload
+uvicorn main:app --reload --port 8000
 ```
 
-### 3. Frontend Setup (React + Vite)
+### 3. Frontend Setup (React)
 
 ```bash
 cd ../frontend
@@ -91,7 +91,7 @@ npm run dev
 ```
 
 Open your browser and visit:  
-`http://localhost:5173`
+`http://localhost:3000`
 
 ---
 
@@ -117,33 +117,9 @@ Open your browser and visit:
 
 ---
 
-## 📄 Recommended `.gitignore`
-
-```gitignore
-.env
-.env/
-backend/env/
-__pycache__/
-*.pyc
-node_modules/
-dist/
-```
-
----
-
-## 📜 License
-
-This project is licensed under the **MIT License**.  
-Feel free to use, modify, and share it as needed.
-
 ---
 
 ## 🙋‍♂️ Author
 
-Made with ❤️ by **[Your Name]**  
-🔗 [LinkedIn](https://linkedin.com/in/your-profile)  
-🌐 [Portfolio](https://your-portfolio.com)
-
----
-
-Would you like a version with badges, deployment (Vercel / Render) steps, or Docker support included?
+Made with ❤️ by **Rushikesh Puddatwar**  
+🔗 [LinkedIn](https://www.linkedin.com/in/rpuddatwar/)  
