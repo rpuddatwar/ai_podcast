@@ -6,12 +6,14 @@ ai-podcast/
 ├── backend/
 │   ├── main.py
 │   ├── requirements.txt
-│   └── .env
+│   └── env
 └── frontend/
     ├── index.html
     ├── src/
     │   ├── App.js
     │   ├── main.js
+└── .env/
+└── .gitignore/
 
 
 Explain the basics of quantum computing.
@@ -32,3 +34,8 @@ What is blockchain and how does it work?
 "What are the pros and cons of remote work?"
 
 "How do electric vehicles contribute to a sustainable future?"
+
+.env.example
+
+TAVILY_API_KEY=your_tavily_api_key_here
+HUGGINGFACE_API_KEY=your_huggingface_api_key_here
